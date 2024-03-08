@@ -20,7 +20,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://sheets-theta.vercel.app"],
+    origin: ["http://localhost:3000", "https://sheets-theta.vercel.app", "https://real-time-google-sheet.vercel.app"],
     methods: ["GET", "POST"],
   })
 );
